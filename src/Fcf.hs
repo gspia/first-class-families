@@ -8,6 +8,8 @@
 {-# LANGUAGE TypeOperators #-}
 {-# LANGUAGE UndecidableInstances #-}
 
+{-# OPTIONS_GHC -Wno-star-binder #-}
+
 -- | First-class type families
 --
 -- For example, here is a regular type family:
